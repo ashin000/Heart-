@@ -26,7 +26,7 @@ stage.addChild(text);
 
 const hearts = [];
 const heartImage = new Image();
-heartImage.src = "/storage/emulated/0/Pictures/Heart-image.png";
+heartImage.src = "Heart-image.png";
 
 heartImage.onload = () => {
     for (let i = 0; i < 50; i++) {
